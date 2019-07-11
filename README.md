@@ -1,16 +1,6 @@
-# Rationale
-
-While reading this article: https://www.vocativ.com/culture/sport/shape-soccer-players-face-predicts-performance/index.html, I was wondering if I could replicate such results using a convolutional neural network by taking in the players' faces as input, and predicting how aggressive each player is.
-
-# Improvements
-
-Utilize transfer learning with a good pre-trained model. Limitations: Current dataset has 15000 faces; most transfer learning cases have lesser data. Can still try in the future if I have a better computer.
-
-
-
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=300px height=300px src="https://tmssl.akamaized.net//images/foto/normal/arturo-vidal-fc-barcelona-1539330070-18205.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Project Title</h3>
@@ -35,6 +25,7 @@ Utilize transfer learning with a good pre-trained model. Limitations: Current da
 - [Rationale](#rationale)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
+- [Improvements](#improvement)
 
 
 ## 🧐 About <a name = "about"></a>
@@ -89,11 +80,10 @@ conda create -n tensorflow_env tensorflow
 ```
 
 ## 🎈 Usage <a name="usage"></a>
+
 Run the nip_project.ipynb on your jupyter notebook terminal. To obtain a training and test set. Then run nip_project_model.ipynb to build on the model.
 
-## 🚀 Deployment <a name = "deployment"></a>
+## 🚀 Improvements <a name = "improvement"></a>
 
-## ⛏️ Built Using <a name = "built_using"></a>
-- [Python]
-
+Utilize transfer learning with a good pre-trained model. Limitations: Current dataset has 15000 faces; most transfer learning cases have lesser data. Can still try in the future if I have a better computer.
 
